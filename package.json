@@ -1,0 +1,23 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "highcharts": "^5.0.9",
+    "serve": "^5.0.4",
+    "validator": "^7.0.0",
+    "validator.tool": "^1.0.4"
+  },
+  "devDependencies": {
+    "gulp-clean": "^0.3.2",
+    "gulp-watch": "^4.3.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ./public"
+  },
+  "author": "",
+  "license": "MIT"
+}

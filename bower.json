@@ -1,0 +1,23 @@
+{
+  "name": "email",
+  "description": "",
+  "main": "index.js",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "layer": "^3.0.3",
+    "director": "^1.2.8",
+    "datatables.net": "^2.1.1",
+    "datatables.net-bs": "^2.1.1",
+    "validator": "^0.0.5",
+    "select2": "^4.0.3"
+  }
+}

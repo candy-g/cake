@@ -1,0 +1,338 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: rgba(222, 241, 242, 0.16);
+}
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+
+.carousel {
+  height: 500px;
+  margin-bottom: 91px;
+  margin-top: 84px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.carousel-control.right {
+  right: 0;
+  left: auto;
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+  background-image: -o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+  background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+.carousel-control.left {
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+  background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+  background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+  background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #5d5e63;
+  background-color: #def1f2;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-inverse {
+    background-color: rgb(185, 222, 240);
+    border: 0;
+  }
+  .navbar-wrapper .navbar .container {
+    width: 1191px;
+    font-size: 16px;
+  }
+  .navbar-inverse .navbar-nav>li>a {
+    color: #5d5e63;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+
+p {
+  margin: 11px 125px 22px;
+  font-size: 15px;
+}
+
+element.style {
+  background-color: rgba(185, 222, 240, 0.156863);
+}
+
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 1px;
+  }
+}
+@media (min-width: 768px){
+.featurette-heading {
+  font-size: 40px;
+}}
+.navbar-inverse {
+  background-color:rgb(222, 241, 242);
+  border: 0px;
+}
+.marketing .col-lg-4 p {
+
+  text-align: left;
+}
+//.navbar-brand{
+//  background: url("");
+//}
+.layui-layer-shade {
+  position: absolute;
+  pointer-events: auto;
+}
+
+//页脚部分
+footer {
+  overflow: hidden;
+}
+
+footer p {
+  padding: 22px;
+  font: 26px "微软雅黑";
+  color: #696565;
+  text-align: center;
+}
+
+footer .sexangle{
+  left: calc(50% - 350px);
+}
+
+footer .sexangle div{
+  margin-top: 20px;
+  width: 140px;height: 160px;
+  display: inline-block;
+
+
+}
+
+footer i{
+
+  display: inline-block;
+  width: 84px;height: 97px;
+  text-align: center;
+  line-height: 97px;
+  color: #fff;
+  font:28px/97px "微软雅黑";
+}
+
+footer .sexangle_1 i,footer .sexangle_2 i,footer .sexangle_3 i,footer .sexangle_4 i,footer .sexangle_5 i{
+  background-position: -344px -134px;
+
+}
+
+footer .sexangle span{
+
+  top: 100px;
+  left: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+footer {
+  width: 1260px;
+
+  /*    top: 220px;*/
+  left: calc(50% - 600px);
+  overflow: hidden;
+}
+
+.footer-icon {
+  text-align: center;
+}
+
+.footer-icon a {
+  display: inline-block;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  background: #494949;
+  margin: 0 25px;
+  font-size: 16px;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+}
+.footer-icon a>img {
+  height: 30px;
+  margin: 10px;
+}
+
+.footer-text {
+  margin-top: 25px;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgb(95, 86, 86);
+  text-align: center;
+}
+.footer-text span:first-child {
+  font-weight: bold;
+}
+
+.footer-text span {
+  display: block;
+}
+
+.footer-copyright {
+  padding-top: 12px;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+  border-top: 1px solid #484444;
+}
+
+.footer-copyright span {
+  line-height: 1.5em;
+  color: #635d5d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
